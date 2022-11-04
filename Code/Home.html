@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>The story shop</title>
+    <link rel="stylesheet" type="text/css" href="css/Home.css">
+    <script type="text/javascript">
+        function changeSlogan(){
+            changeSlogan = document.getElementById("changeSlogan").textContent ="Book, a portrait of truth.";
+        }
+        
+   </script>
+    
+</head>
+
+<body>
+        <div class="container">
+
+           <!-- Logo of the website -->
+
+            <div class="header">
+                <div class="Logo">
+                    <img src="/Picture/bookstore.png" alt="The story shop" width="50px" height="50px">
+                </div>
+            <nav>
+
+               <!-- creating a navigation bar to make the link between pages -->
+
+                <ul>   
+        
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Research.html">Research</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                    <!--  using cart image as icon -->
+
+                    <div style="margin-left:40px; margin-top: -15px;" class="picture">
+                        <img src="/Picture/cart.png" width="50px" height="50px">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+            <div class="row">
+
+                <!-- function Change -->
+
+                <div class="col-2">
+                    <h1 id="changeSlogan">
+                        That's the thing about books. They let you travel without moving your foot.
+                    </h1>
+                    <button onclick="changeSlogan()">Change Slogan</button>
+                </div>
+                <div class="col-2">
+                    <img src="/Picture/Book.jpeg">
+                </div>
+            </div>
+
+    </div>
+
+    <!-- featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/Picture/The girl in room 105.jfif" alt="The girl in room 105" width="300px" height="400px">
+                </div>
+                <div class="col-3">
+                    <img src="/Picture/Seto_Dharti.jfif" alt="Seto Dharti" width="275px" height="390px">
+                </div>
+                <div class="col-3">
+                    <img src="/Picture/Arclight_(novel).jpg" alt="Arclight">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- featured books -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product.html"><img src="/Picture/One_Indian_Girl.jpg" width="300px" height="300px"></a>
+                <h4>One indian girl</h4>
+                <div class="rating">
+                    <img src="/Picture/rating icon.png">
+                </div>
+                <p>$10</p>
+            </div>
+            <div class="col-4">
+                <a href="product.html"><img src="/Picture/When no one is watching.jfif" width="300px" height="300px"></a>
+                <h4>When no one is watching</h4>
+                <div class="rating">
+                    <img src="/Picture/rating icon.png">
+                </div>
+                <p>$15</p>
+            </div>
+            <div class="col-4">
+                <a href="product.html"><img src="/Picture/Rich_Dad_Poor_Dad.jpg" width="300px" height="300px"></a>
+                <h4>Rich dad poor dad</h4>
+                <div class="rating">
+                    <img src="rating icon.png">
+                </div>
+                <p>$18</p>
+            </div>
+            <div class="col-4">
+                <a href="Product.html"><img src="/Picture/Seto_Dharti.jfif" width="300px" height="300px"></a>
+                <h4>Seto Dharti</h4>
+                <div class="rating">
+                    <img src="/Picture/rating icon.png">
+                </div>
+                <p>$20</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/Picture/Think like a monk.jpg">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on amazon</p>
+                    <p>Think like a monk</p>
+                    <small>Jay Shetty, the social media sensation and host of the #1 podcast 'On Purpose,' distills the
+                        timeless knowledge he gained as a monk into actionable steps that anybody may apply every day to
+                        live a less stressed, more purposeful existence. Shetty draws on his time as a Vedic monk to
+                        show us how to overcome the obstacles that stand in the way of our full potential and strength
+                        in this fascinating, empowering book. </small>
+                </div>
+
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+
+    <!-- Footer of the webpage -->
+    
+    <div class="footer">
+
+        &copy; Copyright The story shop | All rights reserved
+    </div>       
+    
+</body>
+
+</html>

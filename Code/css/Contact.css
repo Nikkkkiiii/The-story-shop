@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:radial-gradient(#fff, #ffd6d6);  
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+p{
+margin: 20px;
+}
+input{
+    min-width: 80%;
+    margin: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer{
+text-align: center;
+color: black;
+   
+}
+ .loginbox form{
+    color: black;
+    
+}
+button{
+    margin: 20px;
+}
+

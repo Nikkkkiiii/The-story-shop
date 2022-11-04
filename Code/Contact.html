@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel = "stylesheet" type="text/css" href="css/Contact.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="Logo">
+            <img src="/Picture/bookstore.png" alt="The story shop" width="100px" height="100px">
+        </div>
+
+         <!-- creating a navigation bar to make the link between pages -->
+
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product.html">Product</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="/Picture/cart.png" width="50px" height="50px">
+    </div>
+    <div class="loginbox">
+
+        creating a form 
+        
+        <form>
+            <p>First Name</p>
+            <input type="text" name="LastName" id="fname" placeholder="Enter your first name" required>
+            <p>Last Name</p>
+            <input type="text" name="firstName" id="Lname" placeholder="Enter your last name" required>
+            <p>Phone Number</p>
+            <input type="number" name="PhoneNumber" id="Pnumber" placeholder="Enter your phone number" required>
+            <p>Email</p>
+            <input type="text" name="email" id="EmailId" placeholder="Enter your gmail Id" required>
+            <p>Postalcode</p>
+            <input type="number" name="postalcode" id="postalcode" placeholder="Enter you code number" required>
+            <br>
+            <br>
+            <button onclick = "change()">Submit form</button>
+            <br>
+           
+            
+            
+        </form>
+        <br>
+        <script>
+            function change(){
+                var firstName = document.getElementById("fname").value;
+                var LastName = document.getElementById("Lname").value;
+                var PhoneNumber = document.getElementById("Pnumber").value;
+                var email = document.getElementById("EmailId").value;
+                var postalCode = document.getElementById("postalcode")
+                if(firstName==""|| LastName==""|| PhoneNumber==""||email==""||postalCode==""){
+                    alert("Please fill the form.");
+                }
+                else{
+                    alert("you are signed in.")
+                }
+            }
+        </script>
+        <div class="footer">
+
+            © Copyright The story shop | All rights reserved
+        </div>
+        
+    </div>
+
+</body>
+</html>

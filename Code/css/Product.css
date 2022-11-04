@@ -1,0 +1,25 @@
+body{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer{
+    color: palevioletred;
+    margin-left: 600px;
+}
